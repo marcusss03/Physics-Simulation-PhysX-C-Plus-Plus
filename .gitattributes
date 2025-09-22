@@ -1,9 +1,6 @@
-# Treat Unreal Engine Blueprints as C# for GitHub language stats
-*.uasset linguist-language=C#
-*.umap linguist-language=C#
-
-# Ignore temporary/cache files for language stats
-Binaries/* linguist-vendored
-DerivedDataCache/* linguist-vendored
-Intermediate/* linguist-vendored
-Saved/* linguist-vendored
+# Treat headers and cpp files as C++
+*.h linguist-language=C++
+*.hpp linguist-language=C++
+*.cxx linguist-language=C++
+*.cpp linguist-language=C++
+*.cc linguist-language=C++
