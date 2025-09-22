@@ -1,6 +1,10 @@
-# Treat headers and cpp files as C++
+# Treat C++ files as C++
+*.cpp linguist-language=C++
+*.cxx linguist-language=C++
+*.cc linguist-language=C++
 *.h linguist-language=C++
 *.hpp linguist-language=C++
-*.cxx linguist-language=C++
-*.cpp linguist-language=C++
-*.cc linguist-language=C++
+
+# Ignore vendor/binary folders (PhysX SDK libraries, Binaries, etc.)
+ThirdParty/** linguist-vendored
+Binaries/** linguist-vendored
